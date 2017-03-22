@@ -1,0 +1,30 @@
+---
+layout: page
+title: Hizmetlerimiz
+permalink: hizmetlerimiz
+---
+      <!-- /.container -->
+      <div class="container">
+        <!-- services  -->
+        <div class="row services">
+          {% for services_item in site.services %}
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-block">
+
+                        <h4 class="card-title">  {{services_item.title }}</h4><hr>
+
+
+                          <a href="href="tel:55555555"" class="card-link">Fiyat için arayınız</a>
+
+                        <a href="mailto:name@example.com" class="card-link">Fiyat bize mail atınız</a>
+
+
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    </div>
+    <!-- /.container -->
