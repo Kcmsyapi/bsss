@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: KÇMS Yapı Dekorasyon Hizmetleri
 email: kcmsyapi@gmail.com
-description: > KÇMS Yapı Dekorasyon, İzmir ve bölgesinde müşteri memnuniyetini ilke edinmiş yapı dekorasyon alanında hemen hemen her türlü hizmeti veren bir şirkettir.
+description: > # KÇMS Yapı Dekorasyon, İzmir ve bölgesinde müşteri memnuniyetini ilke edinmiş
+              yapı dekorasyon alanında hemen hemen her türlü hizmeti veren bir şirkettir.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://izmir-tabelaci.com" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
