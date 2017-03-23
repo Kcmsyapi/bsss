@@ -24,6 +24,9 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-sitemap
+paginate: 2
+paginate_path: "blog/page:num"
 exclude:
   - Gemfile
   - Gemfile.lock
